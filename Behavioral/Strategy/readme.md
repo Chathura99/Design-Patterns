@@ -1,0 +1,5 @@
+The Strategy design pattern is a behavioral design pattern that allows an object to change its behavior at runtime. It is used to define a family of algorithms, encapsulate each one as an object, and make them interchangeable.
+
+In this example, the ShoppingCart class uses the PaymentStrategy interface to pay for the items in the cart. The CreditCardStrategy and PayPalStrategy classes implement the PaymentStrategy interface to provide specific ways of paying with a credit card or PayPal. The client can choose which payment method to use at runtime by passing an instance of the desired strategy to the pay method of the ShoppingCart class.
+
+In this example, the main method creates a new ShoppingCart object and adds two items to it. Then it calls the pay method of the ShoppingCart class, passing in different instances of the PaymentStrategy interface to pay for the items in the cart using either a credit card or PayPal.
