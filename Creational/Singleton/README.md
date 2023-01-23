@@ -1,0 +1,3 @@
+The Singleton pattern is a creational design pattern that ensures a class has only one instance, while providing a global access point to this instance. The Singleton pattern is often used when a single instance of a class needs to control the action throughout the execution and provide a single point of access to that instance.
+
+There are several ways to implement the Singleton pattern in Java, but the most common method is to use a private constructor and a static factory method. The factory method checks to see if an instance of the class has already been created and returns that instance, or creates a new instance if one does not exist.
